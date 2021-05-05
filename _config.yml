@@ -3,7 +3,7 @@ baseurl: "/"
 url: "https://piorosen.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Type on Strap                                    # site's title
+title: 차주형의 개발 블로그                                    # site's title
 description: "A website with blog posts and pages"      # used by search engines
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
@@ -31,7 +31,7 @@ cusdis_app_id:                                          # Your cusdis data-app-i
 color_theme: auto                                       # auto, dark or light
 
 # PAGINATION
-paginate: 5
+paginate: 10
 paginate_path: "/blog/page:num"
 
 # PORTFOLIO
