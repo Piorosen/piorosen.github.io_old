@@ -1,13 +1,12 @@
 ---
 layout: post
-title: IDE에 있는 Scheme 를 이용하여 효율적인 작업 분담
+title: IDE에 있는 Scheme 를 이용하여 효율적인 작업 분담 및 개발 내용
 author: piorosen
 tags: [xcode, mac, scheme, git]
 hide_title: false
 # feature-img: "assets/img/feature-img/"
-feature-img: "http://placehold.it/700x300"
+feature-img: "assets/img/post/2021-05-27-xcode.png"
 # thumbnail: "assets/img/thumbnails/feature-img/"
-thumbnail: "http://placehold.it/200x200"
 ---
 
 # 개요
