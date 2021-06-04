@@ -10,7 +10,6 @@ feature-img: "assets/img/post/2021-05-27-xcode.png"
 ---
 
 # 개요
-
 연구과제를 통해 기존 Android 어플을 iOS로 포팅 작업 하고 있고, 개발 인력은 총 4명, 각자, Bluetooth, Network, Graphic User Interface(이하 GUI) 를 나눠서 개발을 진행 하고 있었다.
 
 처음 프로젝트 계획을 세웠을 때 Bluetooth, Network, GUI 총 3개의 Repository로 나눠 submodule 형식으로 관리를 하거나, Swift Package Manager(이하 SwiftPM)로 프로젝트를 관리를 할 생각이 있었지만 모두가 Git을 아는게 아니였고, Private Repository로 관리를 해야 했기에 ssh-key나 gpg-key를 등록을 해야하는 등 공부 하면서 진행하기엔 내용이 너무 많아 제외 하였다.
