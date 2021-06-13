@@ -2,7 +2,7 @@
 layout: post
 title: C++에서 OS와 Compiler 판별
 author: piorosen
-tags: [tag1, tag2]
+tags: [C++, predefine, terminal, multiplatform]
 hide_title: false
 # feature-img: "assets/img/feature-img/"
 # feature-img: "http://placehold.it/700x300"
