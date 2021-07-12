@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 도커에 대한 공부와 K 해커톤 대회 개발 환경 및 
+title: 도커에 대한 공부와 K 해커톤 대회 개발 환경 구축
 author: piorosen
 tags: [docker, apm]
 hide_title: false
