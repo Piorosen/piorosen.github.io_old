@@ -5,9 +5,9 @@ author: piorosen
 tags: [game-engine, coding-style, components, property]
 hide_title: false
 # feature-img: "assets/img/feature-img/"
-feature-img: "http://placehold.it/700x300"
+# feature-img: "http://placehold.it/700x300"
 # thumbnail: "assets/img/thumbnails/feature-img/"
-thumbnail: "http://placehold.it/200x200"
+# thumbnail: "http://placehold.it/200x200"
 ---
 
 # 개요
