@@ -72,5 +72,3 @@ DNS 서버를 선택 하였다면 어떻게 L4 스위칭을 할 것인지 계획
 4. https://play.google.com/store/apps/details?id=com.maptest.gomjae.maptest 서버
 5. 그 외 대회나 캡스톤 디자인으로 개발할 때 필요한 서버
 6. 만약 필요하다면 존재 할 CI/CD (테스팅 도구들)
-
-# 
