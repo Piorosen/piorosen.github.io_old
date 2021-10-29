@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Cloudflare의 API 활용하여 SSL 인증서와 DNS 관리
+title: Cloudflare의 API 활용하여 서브도메인의 SSL 인증서와 DNS 관리
 author: piorosen
 tags: [cloudflare, ssl, subdomain, api, macro]
 hide_title: false
 ---
 
 # 개요
-
 최근 동아리방 서버를 구축 하기 위해 OSI 7계층과 쿠버네티스, DNS 서버에 대해서 공부를 했었다. 그러면서 문득 과거 2021년 3월에 진행 했던 [웹페이지](http://directfyou.com) 외주를 새롭게 맡는다면 어떻게 시스템을 업그레이드를 할 수 있을까? 란 고찰을 하게 되었다.
 
 2021년 3월에 진행했던 외주는 서브 도메인에 여러개의 하위 업체의 페이지를 만들고자 하였고, 관리자 페이지에서 하위 업체의 페이지를 관리가 가능한 시스템 구축을 원하였으며, 아래의 이미지 처럼 하위 업체 페이지와, 관리자 페이지를 통하여 만들었었다.
