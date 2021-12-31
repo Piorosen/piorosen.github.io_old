@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!--Div that will hold the pie chart-->
+    <canvas id="columnchart_values"></canvas>
+    <script type="text/javascript">
+        const url = new URL(location.href).searchParams;
+
+        var ctx = $("#columnchart_values").get(0).getContext("2d");
+
+
+
+        // 그래프 그리기
+        function drawChart() {
+
+            data = {
+                a1_score: url.get('a1'),
+                a2_score: url.get('a2'),
+                b_score: url.get('b'),
+                c_score: url.get('c'),
+                d_score: url.get('d'),
+            }
+
+            var config = {
+                type: 'bar',
+                data: {
+                    labels: [
+                        'A-요구(직접)', 'A-요구(간접)', 'B-질문', 'C-단언', 'D-의례화'
+                    ],
+                    datasets: [{
+                        data: [
+                            data.a1_score,
+                            data.a2_score,
+                            data.b_score,
+                            data.c_score,
+                            data.d_score,
+                        ],
+                        fill: false,
+                        lineTension: false,
+                        borderWidth: 1,
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                        ],
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.3)',
+                            'rgba(54, 162, 235, 0.3)',
+                            'rgba(255, 206, 86, 0.3)',
+                            'rgba(75, 192, 192, 0.3)',
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                beginAtZero: true,
+                                max: 8,
+                                stepSize: 2,
+                            }
+                        }]
+                    },
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+            chartObj = new Chart(ctx, config);
+            chartObj.config = config;
+            chartObj.update();
+        }
+
+        drawChart()
+
+    </script>
+</body>
+
+</html>
