@@ -1,6 +1,6 @@
 <html>
-
 <head>
+    <meta name="viewport" content="width=device-width, shrink-to-fit=YES"/>
     <!--Load the AJAX API-->
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
@@ -10,17 +10,13 @@
 
 <body>
     <!--Div that will hold the pie chart-->
-    <canvas id="columnchart_values"></canvas>
+        <canvas id="columnchart_values" width="400" height="200" style="position: relative; height:50vw; width:100vw"></canvas>
     <script type="text/javascript">
         const url = new URL(location.href).searchParams;
-
         var ctx = $("#columnchart_values").get(0).getContext("2d");
-
-
 
         // 그래프 그리기
         function drawChart() {
-
             data = {
                 a1_score: url.get('a1'),
                 a2_score: url.get('a2'),
@@ -61,7 +57,7 @@
                     }]
                 },
                 options: {
-                    responsive: true,
+                    responsive: false,
                     scales: {
                         yAxes: [{
                             ticks: {
