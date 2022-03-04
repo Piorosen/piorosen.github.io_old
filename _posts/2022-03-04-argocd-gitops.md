@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Argo CD와 Github Action을 활용한 GitOps
+title: Argo CD와 Github Action을 활용한 GitOps 시스템 구축
 author: piorosen
 tags: [argocd, cd, github, gitops, k8s, github action]
 hide_title: false
