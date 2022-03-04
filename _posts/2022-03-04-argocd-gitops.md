@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Argo CD를 활용한 자동 배포 시스템 구축
+title: Argo CD와 Github Action을 활용한 GitOps
 author: piorosen
 tags: [argocd, cd, github, gitops, k8s, github action]
 hide_title: false
