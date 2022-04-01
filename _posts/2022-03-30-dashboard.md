@@ -2,7 +2,7 @@
 layout: post
 title: 동의대학교 공지사항 대시보드 구현
 author: piorosen
-tags: [dashboard, macro, argocd, cd]
+tags: [dashboard, macro, argocd, cd, cronjob, issue, api, reverse-proxy, github action, gitops, university]
 hide_title: false
 ---
 
