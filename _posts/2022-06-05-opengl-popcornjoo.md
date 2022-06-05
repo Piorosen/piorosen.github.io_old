@@ -1,9 +1,8 @@
 ---
 layout: post
-title: 학교 수업 과제 
+title: 😎OpenGL하다 엔진⚙️ 만들었나❓  날 구해줘 팝콘쥬
 author: piorosen
-tags: [opengl, engine, graphics, fmod, ]
-hide_title: false
+tags: [opengl, engine, graphics, fmod]
 ---
 
 # 개요 
@@ -40,7 +39,8 @@ OpenGL에서 UI를 비교적 쉽게 구현하기 위하여 다른 프레임워�
 마우스와 키보드 입력이 발생한 경우 Scene이나 Application 단에서 적정한 View에 전파하는것이 아닌, 일단 모든 View에게 전파하고, View가 선택하여 자신에게 온 데이터 인지 아닌지 검증하여 실행 하도록 하였습니다. 그래서 검증 하는 코드 중 하나가 현재 View가 Hidden 인지 아닌지 체크 합니다.
 
 즉 간단하게 그림으로 표현 한다면 아래의 이미지 처럼 됩니다.
-![main](/assets/img/post/2022-06-05-render.png)
+
+![main](/assets/img/post/2022-06-05-render.PNG)
 
 매번 렌더링이나, 키보드 이벤트가 발생한다면 Application에서 받고, 현재 활성화가 되어있는 Scene에게 전송하게 되고, Scene에서 모든 View에 전파합니다.
 그래서 최적화와, 마우스 입력과, 이미지 출력 기능과 같은 베이스를 구현 하면 나머지 기능을 자유롭게 쓸 수 있게 됩니다.
