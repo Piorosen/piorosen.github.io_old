@@ -48,4 +48,4 @@ public static class Option {
 
 [[Json을 넣게 되면 디자인을 자유롭게 바꿀수 있어요!]](https://github.com/Piorosen/Json-Custom-Designer)
 
-그리고 특정 시간마다 특정 변수를 관측하면서 로그를 출력 할수도 있어요!
+그리고 특정 시간마다 특정 변수를 관측하면서 로그를 출력 할수 있어요!
