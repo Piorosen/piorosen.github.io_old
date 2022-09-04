@@ -2,12 +2,11 @@
 layout: post
 title: WinAPI 활용한 MONO GUI 잔상 최적화
 author: piorosen
-tags: [mono, winapi, dotnet, optimize, wm-paint, winform, transparency]
+tags: [mono, winapi, dotnet, optimize, wm-paint, winform, transparency, rpi4b, gui, linux]
 hide_title: false
 ---
 
 # 서론
-
 임베디드 시스템에 GUI를 올려 제품 테스트를 해야 했습니다. 임베디드는 저렴하고, 간단한 테스트를 할 것이였기 때문에 리눅스 이면서 간편한 RPI4B를 이용 하였습니다. 특히 상용 제품이면서, 가격이 저렴해야 했기 때문에 윈도우를 사용할 수 없었습니다. 그래서 QT와 GTK, 또는 MONO(Winform)를 고려 대상으로 보았습니다. QT는 가격이 너무 비쌌으며, GTK는 LGPL 라이센스를 이용하기 때문에 상업용으론 부적합하였다. 그래서 최종적으로 MONO를 사용하기로 결정 하였으며 MONO를 이용한 Linux GUI 개발을 하기로 하였다.
 
 # 개발 중 겪은 문제
